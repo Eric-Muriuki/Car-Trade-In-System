@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
-</head>
-<style>
+    <style>
     .main-header{
         background-color: #1e1e2f; /*to set the background color of the header */
         color: white; /* to set the text color of the header */
@@ -39,9 +38,11 @@
     .main-nav ul li a:hover{
         text-decoration: underline; /* property to add the underline to the links in the list on hover */
     }
-    .main-
 </style>
+</head>
 <body>
+
+
     <div class="main-header">
         <div class="container">
             <div class="logo">

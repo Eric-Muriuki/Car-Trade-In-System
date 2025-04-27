@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Footer</title>
+    <style>
+        .main-footer{
+            background-color: #1e1e2f; /*to set the background color of the footer */
+            color: white; /*to set the text color of the footer */
+            text-align: center; /*to center the text in the footer */
+            padding: 5px 10px; /*to set the padding of the footer */
+        }
+    </style>
 </head>
 <body>
     
