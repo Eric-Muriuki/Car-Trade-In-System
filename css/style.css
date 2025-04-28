@@ -1,5 +1,6 @@
 body, html{
     height: 100%; /* Full height */
     display: flex; /* Use flexbox for layout */
+    background-color: #f0f0f0; /* Light gray background */
     flex-direction: column; /* Stack children vertically */
 }

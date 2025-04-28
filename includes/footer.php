@@ -9,9 +9,9 @@
             background-color: #1e1e2f; /*to set the background color of the footer */
             color: white; /*to set the text color of the footer */
             text-align: center; /*to center the text in the footer */
-            padding: 5px 10px; /*to set the padding of the footer */
+            padding: 25px 10px; /*to set the padding of the footer */
             border-radius: 10px; /*to set the border radius of the footer */
-            margin-top: auto; /*to set the margin top of the footer */
+            margin-top: 50px; /*to set the margin top of the footer */
         }
         .main-footer a{
             color: #ccc; /*to set the color of the links in the footer */

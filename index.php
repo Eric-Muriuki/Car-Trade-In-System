@@ -83,6 +83,42 @@
             padding-left: 30px; /* left padding for the list items */
             position: relative; /* positions the list items relative to their container */
         }
+        .features ul li::before{
+            content: "✅"; /* adds a checkmark before each list item */
+            position: absolute; /* positions the checkmark absolutely */
+            left: 0; /* aligns the checkmark to the left */
+        }
+
+        .cta{
+            background-color: #003973; /* dark background color */
+            color: white; /* text color */
+            text-align: center; /* centers the text */
+            padding: 70px 20px; /* top/bottom and left/right padding */
+        }
+        .cta h2{
+            font-size: 2.5em; /* font size for the heading */
+            margin-bottom: 20px; /* space below the heading */
+        }
+        .cta .btn{
+            background-color: #ff5722; /* button background color */
+            color: white; /* button text color */
+            padding: 15px 30px; /* top/bottom and left/right padding */
+            margin: 10px; /* space around the button */
+            border: none; /* no border */
+            border-radius: 30px; /* rounded corners for the button */
+            text-decoration: none; /* removes underline from the link */
+            font-weight: bold; /* makes the button text bold */
+            display: inline-block; /* makes the link behave like a button */
+        }
+        .cta .btn:hover{
+            background-color: #e64a19; /* darker shade on hover */
+        }
+        .cta .btn:active{
+            background-color: #d84315; /* even darker shade on click */
+        }
+        a.btn{
+            transition: background-color 0.3s; /* smooth transition for background color */
+        }
     </style>
 
 </head>
@@ -110,10 +146,10 @@
 <section class="features">
     <h2>Why Choose Us?</h2>
     <ul>
-        <li>✅ Easy Process</li>
-        <li>✅ Best Offers</li>
-        <li>✅ Secure and Trusted</li>
-        <li>✅ Fast Responses</li>
+        <li>Easy Process</li>
+        <li>Best Offers</li>
+        <li>Secure and Trusted</li>
+        <li>Fast Responses</li>
     </ul>
 </section>
 
