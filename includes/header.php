@@ -36,15 +36,15 @@
 <header class="main-header">
     <div class="container">
         <div class="logo">
-            <a href="/index.php">CarTradeIn</a>
+            <a href="index.php">CarTradeIn</a>
         </div>
         <nav class="main-nav">
             <ul>
-                <li><a href="/index.php">Home</a></li>
-                <li><a href="/about.php">About</a></li>
-                <li><a href="/contact.php">Contact</a></li>
-                <li><a href="/login.php">Login</a></li>
-                <li><a href="/register.php">Register</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="register.php">Register</a></li>
             </ul>
         </nav>
     </div>
